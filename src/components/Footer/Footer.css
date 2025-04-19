@@ -1,0 +1,34 @@
+.footer-container{
+    text-align:center;
+    color: rgb(62, 61, 61);
+}
+hr {
+    width: 80%;         
+    margin: 20px auto;  /* Centers it horizontally and adds vertical spacing */
+    
+  }
+
+  @media (max-width: 900px) {
+    hr {
+      width: 85%;
+    }
+  }
+  
+  /* Below 768px */
+  @media (max-width: 768px) {
+    hr {
+      width: 90%;
+    }
+  }
+  
+  /* Below 420px */
+  @media (max-width: 420px) {
+    .footer-container {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    hr {
+      width: 95%;
+    }
+  }

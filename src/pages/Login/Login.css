@@ -1,0 +1,133 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+input {
+  width: 250px;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.next-btn,
+.login-btn {
+  width: 280px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.next-btn:hover,
+.login-btn:hover {
+  background-color: #eee;
+}
+
+.back-home-btn {
+  position: absolute;
+  bottom: 80px;
+  width: 250px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: rgb(228, 41, 228);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.back-home-btn:hover {
+  background-color: rgb(144, 24, 144);
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #666565;
+}
+
+
+@media (max-width: 768px) {
+  .logo {
+    width: 100px;
+    margin-bottom: 30px;
+  }
+
+  input {
+    width: 90%;
+    font-size: 15px;
+  }
+  .next-btn,
+  .login-btn {
+    width: 100%;
+    font-size: 15px;
+  }
+  .back-home-btn {
+    width: 50%;
+    font-size: 15px;
+  }
+  .back-home-btn {
+    bottom: 70px;
+  }
+
+  .footer {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 420px) {
+  .logo {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+
+  input {
+    width: 90%;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .next-btn,
+  .login-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .back-home-btn {
+    width: 50%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .back-home-btn {
+    bottom: 60px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}
