@@ -41,6 +41,13 @@
   
 
 @media (max-width: 1100px) {
+  .header-container {
+    height: 30vh;
+  }
+
+  .bg-img {
+    height: 30vh;
+  }  
   .login-btnn {
     padding: 12px 20px;
     font-size: 15px;
@@ -54,13 +61,6 @@
 
 
 @media (max-width: 900px) {
-  .header-container {
-    height: 40vh;
-  }
-
-  .bg-img {
-    height: 40vh;
-  }  
 
   .login-btnn {
     top: 40px;
@@ -79,11 +79,11 @@
 
 @media (max-width: 768px) {
   .header-container {
-    height: 35vh;
+    height: 30vh;
   }
 
   .bg-img {
-    height: 35vh;
+    height: 30vh;
   }
 
   .login-btnn {
