@@ -10,7 +10,8 @@
 }
 
 .logo {
-  width: 120px;
+  width: 100%;
+  max-width: 350px;
   height: auto;
   margin-bottom: 40px;
 }

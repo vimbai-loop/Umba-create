@@ -1,7 +1,7 @@
 import React from 'react'
-import serviceImg1 from '../../assets/service_1.jpg'
-import serviceImg2 from '../../assets/service_2.jpg'
-import serviceImg3 from '../../assets/service_3.jpg'
+import serviceImg1 from '../../assets/strategic-planning.jpg'
+import serviceImg2 from '../../assets/team-building.jpg'
+import serviceImg3 from '../../assets/online-learning.jpg'
 import './Service.css'; 
 
 const Service = () => {

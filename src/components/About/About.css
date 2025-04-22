@@ -3,7 +3,7 @@
     width: 100%;
     min-height: 400px;
     padding: 80px 12%;
-    background: url('about-img.jpg') no-repeat center center;
+    background: url('../../assets/hero.png') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     color: white;
