@@ -24,8 +24,8 @@ const Service = () => {
   
         <div className='service-detail'>
           <h2>Team Building</h2>
-          <img src={serviceImg2} alt="service" className='serviceImg spanImage' />
-          <p className="service-desc"><span>We offer customized team-building programs
+          <img src={serviceImg2} alt="service" className='serviceImg spanImage service-desc' />
+          <p><span>We offer customized team-building programs
             including group dynamics, behavioral assessments, 
             and bootcamps. Aligning teams, enhancing performance.</span></p>
         </div>
